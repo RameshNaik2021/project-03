@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+} 
+body{
+    width: 80%;
+    height: 80%;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20%;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    right: 100px;
+    justify-content: space-around;
+}
+nav ul li:first-child{
+    font: bold;
+    font-weight: 800;
+}
+#leftmain{position: relative;
+width: 40%;}
+
+.img1{
+    width: 100px;
+    height: 100px;
+    right:100px;
+  
+    margin: 60px 47px;
+    padding-left: 58px ;
+    padding-top: 200px;
+    
+    
+}
+.img2{
+  position: absolute;
+top:0%;
+}
+ 
+   .rightmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   div img{
+   position: relative;
+   left: 100px ;
+   }
+   .globe{
+    position: relative;
+    left:59%;
+    bottom: 290px;
+    width: 50px;
+   }
+   .start{
+    position: relative;
+    left:90%;
+    bottom: 230px;
+    width: 50px;
+   }
+   .h{
+    position: relative;
+    left:50%;
+     bottom: 230px; 
+    width: 70%;
+    font-size:60px;
+    height: 120px;
+   }
+   .p{
+    position: relative;
+    left: 50%;
+    bottom: 230px; 
+    width: 49%;
+    padding-left: 6%;
+  
+   }
+ .email{
+    position: relative;
+    left: 65%;
+    bottom: 230px; 
+    margin: 80px 0;
+    padding: 5px 20px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(94, 93, 94);
+    border-radius: 10px;
+ }
+ .join{
+    position: relative;
+    left: 65%;
+    bottom: 230px; 
+    margin: 80px 0;
+    padding: 5px 20px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(94, 93, 94);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+ }
+ .p1{
+    position: relative;
+   
+    left: 72%;
+    bottom: 255px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #6f6e6e;
+font-size: 20px;
+ }
+ .images{
+    position: absolute;
+    margin-left: 47%;
+bottom: 110px;
+
+
+  
+ }
+nav button{
+position: relative;
+  padding: 6px 30px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(94, 93, 94);
+    border-radius: 10px;
+}
+nav img{
+position: relative;
+margin-left: 100px;
+}
